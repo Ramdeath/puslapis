@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/puslapis/static/css/main.39fe2e0e.css",
+    "main.js": "/puslapis/static/js/main.7e782ea4.js",
+    "static/js/787.f4804f74.chunk.js": "/puslapis/static/js/787.f4804f74.chunk.js",
+    "index.html": "/puslapis/index.html",
+    "static/media/testFile.txt": "/puslapis/static/media/testFile.bef9ce9aed25c83cd669.txt",
+    "main.39fe2e0e.css.map": "/puslapis/static/css/main.39fe2e0e.css.map",
+    "main.7e782ea4.js.map": "/puslapis/static/js/main.7e782ea4.js.map",
+    "787.f4804f74.chunk.js.map": "/puslapis/static/js/787.f4804f74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39fe2e0e.css",
+    "static/js/main.7e782ea4.js"
+  ]
+}
