@@ -1,4 +1,5 @@
-import testFile from './files/testFile.txt';
+import testFile from './files/testFile.txt'; // Failo importavimas (būtinas)
+// pavyzdys: import failoPavadinimas from './files/failoPavadinimas.txt';
 
 export default function Desimtokai() {
     return (
@@ -9,10 +10,11 @@ export default function Desimtokai() {
                 <ul>
                     <li>
                         <a
-                        href={testFile}
+                        href={testFile} // Importuotas failas
                         download="Example-File" // Failo pavadinimas (bet koks)
-                        target="_blank"
-                        rel="noreferrer">
+                        target="_blank" // Atsidarys naujame lange
+                        rel="noreferrer" // Saugumo reikalas
+                        >
                         Test download file from github
                         </a>
                     </li>
