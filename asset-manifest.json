@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/puslapis/static/css/main.39fe2e0e.css",
-    "main.js": "/puslapis/static/js/main.b8301ea3.js",
+    "main.css": "/puslapis/static/css/main.a41bab2f.css",
+    "main.js": "/puslapis/static/js/main.de215b0a.js",
     "static/js/787.f4804f74.chunk.js": "/puslapis/static/js/787.f4804f74.chunk.js",
     "static/media/pamoka2.ppt": "/puslapis/static/media/pamoka2.a13a525574172734d64a.ppt",
     "static/media/pamoka2.pptx": "/puslapis/static/media/pamoka2.3f4413d217d0f0284c52.pptx",
@@ -15,12 +15,12 @@
     "static/media/autocad2_2.png": "/puslapis/static/media/autocad2_2.f05a97eb3dc6406aba01.png",
     "static/media/autocad2_1.png": "/puslapis/static/media/autocad2_1.85aba69cf1ed26ec1bda.png",
     "index.html": "/puslapis/index.html",
-    "main.39fe2e0e.css.map": "/puslapis/static/css/main.39fe2e0e.css.map",
-    "main.b8301ea3.js.map": "/puslapis/static/js/main.b8301ea3.js.map",
+    "main.a41bab2f.css.map": "/puslapis/static/css/main.a41bab2f.css.map",
+    "main.de215b0a.js.map": "/puslapis/static/js/main.de215b0a.js.map",
     "787.f4804f74.chunk.js.map": "/puslapis/static/js/787.f4804f74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39fe2e0e.css",
-    "static/js/main.b8301ea3.js"
+    "static/css/main.a41bab2f.css",
+    "static/js/main.de215b0a.js"
   ]
 }
