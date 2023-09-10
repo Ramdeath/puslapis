@@ -15,12 +15,15 @@ import Vienuoliktokai from './pages/pamokos/vienuoliktokai/vienuoliktokai';
 import Dvyliktokai from './pages/pamokos/dvyliktokai/dvyliktokai';
 import Grafika from './pages/pamokos/grafika/grafika';
 
+import NavBar from './components/navbar';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router basename={process.env.PUBLIC_URL}>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pamokos/desimtokai" element={<Desimtokai/>} />
