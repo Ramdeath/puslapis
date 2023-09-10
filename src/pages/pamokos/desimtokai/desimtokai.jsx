@@ -1,40 +1,32 @@
-import testFile1 from './files/testFile.txt'; // Failo importavimas (būtinas)
-// pavyzdys: import failoPavadinimas from './files/failoPavadinimas.txt';
+import pamoka1 from './files/pazintis_su_codeblocks1.ppt'; // Failo importavimas (būtinas)
+import pamoka2 from './files/pamoka2.ppt'; 
 
 export default function Desimtokai() {
     return (
         <section id="Desimtokai" className="lessonSection">
             <h1>Dešimtokai</h1>
             <div className="lessonContainer">
-                <h3>1-2 Pamoka</h3>
+                <h3>1 pamoka</h3>
                 <ul>
+                    <li>Pažintis su Codeblocks aplinka <a href={pamoka1} download="pamoka1" rel="noreferrer"> nuoroda. </a> </li>
                     <li>
-                        <a
-                        href={testFile1} // Importuotas failas
-                        download="Example-File" // Failo pavadinimas (bet koks)
-                        target="_blank" // Atsidarys naujame lange
-                        rel="noreferrer" // Saugumo reikalas
-                        >
-                        Test download file from github
-                        </a>
+                        Pradinio kodo paaiškinimas <a href='https://www.youtube.com/watch?v=SgOtk8_4Q3o&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.  </a>
                     </li>
-                    <li>asdf asdf asdf </li>
+                    <li>
+                        Užduoties su cout paaiškinimas <a href='https://www.youtube.com/watch?v=X-MTE5WiK5g&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.  </a>
+                    </li>
                 </ul>
 
-                <h3>3-4 Pamoka</h3>
+                
+                <h3>2 pamoka</h3>
                 <ul>
+                    <li>Algoritmas ir jo savybės <a href={pamoka2} download="pamoka2" rel="noreferrer"> nuoroda, </a> <a href='https://www.youtube.com/watch?v=TTK6tBPHfeM&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.  </a></li>
                     <li>
-                        <a
-                        href='https://www.youtube.com/watch?v=7CqJlxBYj-M'
-                        target="_blank"
-                        rel="noreferrer">
-                        Test youtube 
-                    </a>
-                    </li>
-                    <li>List here</li>
-                    <li>List here</li>
-                    <li>List here</li>
+                        Ar gera jūsų logika <a href='http://www.kit-jobs.ru/psijapan-en.php' rel="noreferrer"> japonų IQ testas.  </a>
+                    </li>                   
                 </ul>
+
+                
             </div>
         </section>
     );

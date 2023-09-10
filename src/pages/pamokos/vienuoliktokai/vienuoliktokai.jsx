@@ -1,28 +1,32 @@
-
+import pamoka1 from './files/pamoka1_2.pptx';
+import pamoka3 from './files/pamoka3.pptx';
+import pamoka4 from './files/pamoka4.pptx';
+import pamoka5 from './files/pamoka5_6.pptx';
 
 export default function Vienuoliktokai() {
     return (
         <section id="Vienuoliktokai" className="lessonSection">
             <h1>Vienuoliktokai</h1>
             <div className="lessonContainer">
-                <h3>1-2 Pamoka</h3>
+                <h3>1 savaitė</h3>
                 <ul>
-                    <li>asdf asdf asdf </li>
+                    <li>1-2 pamoka „Kompiuterių raida, algoritmai ir programos“
+                        <a href={pamoka1} download="pamoka1" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>3 pamoka „Duomenų kodavimas ir skaičiavimo sistemos kompiuteriuose“
+                        <a href={pamoka3} download="pamoka3" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>3 pamoka „Higienos, ergonominės ir techninės saugaus darbo skaitmeninėmis technologijomis normos“
+                        <a href={pamoka4} download="pamoka4" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
                 </ul>
 
-                <h3>3-4 Pamoka</h3>
+                <h3>2 savaitė</h3>
                 <ul>
-                    <li>
-                        <a
-                        href='https://www.youtube.com/watch?v=7CqJlxBYj-M'
-                        target="_blank"
-                        rel="noreferrer">
-                        Test youtube link
-                    </a>
+                    <li>5-6 pamoka „Programavimo kalbos konstrukcijos“
+                        <a href={pamoka5} download="pamoka5" rel="noreferrer"> nuoroda. </a>                        
                     </li>
-                    <li>List here</li>
-                    <li>List here</li>
-                    <li>List here</li>
+                    
                 </ul>
             </div>
         </section>
