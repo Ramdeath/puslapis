@@ -1,6 +1,5 @@
 #NavBar{
     --padding: 20px;
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     position: fixed;
     top: 0;
     left: 0;

@@ -1,19 +1,17 @@
 :root{
-  --link-color: #eeba2c;
-  --link-color-underlined: #eeba2c;
+  --link-color: #ffd700;
+  --link-color-underlined: #ffd700;
   --text-color: white;
-  --main-color: #eeba2c;
+  --main-color: #ffd700;
   --background-color: #161f20;
-
+  --background-color-dark: #1c1c1c;
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,6 +38,27 @@ a:after {
   background-color: var(--link-color-underlined);
   transform-origin: bottom right;
   transition: transform 0.3s ease;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background-color-dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: black
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-color);
 }
 
 code {

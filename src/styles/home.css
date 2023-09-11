@@ -1,4 +1,4 @@
-#Home {
+#Banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-    #Home #Content {
+    #Banner #BannerContent {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -14,19 +14,19 @@
         z-index: 2;
         margin: 30vw;
     }
-    #Home #Content h1 {
+    #Banner #BannerContent h1 {
         font-size: 3rem;
         margin: 0;
         font-weight: 200;
     }
-    #Home #Content h2 {
+    #Banner #BannerContent h2 {
         text-align: center;
         font-size: 1.5rem;
         font-weight: 200;
         margin: 0;
     }
 
-#Home ul {
+#Banner ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -35,8 +35,39 @@
     padding: 0;
 }
 
-#Home ul li {
+#Banner ul li {
     font-weight: bold;
     letter-spacing: 1px;
     margin: 6px 0;
+}
+
+#Banner #Pixels {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+    transform: translateY(100px);
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.733));
+}
+
+#Banner #Pixels {
+    animation: goUp 1s .2s ease forwards;
+}
+
+@keyframes goUp {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+#About {
+    padding: 20px;
+    position: relative;
+    color: var(--text-color);
+    z-index: 2;
+    background: var(--background-color-dark);
 }

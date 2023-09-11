@@ -7,20 +7,18 @@ export var settings = {
     },
     "particles": {
         "number": {
-            "value": isMobile ? 22 : 40,
+            "value": isMobile ? 22 : 36,
             "density": {
                 "enable": false,
                 "value_area": 2000
             }
         },
         "color": {
-            "value": "#fff"
+            "value": "#222"
         },
         "shape": {
             "type": "square",
-            "options": {
-                "sides": 5
-            }
+            enable: false,
         },
         "opacity": {
             "value": 0.6,
@@ -54,7 +52,7 @@ export var settings = {
         },
         "line_linked": {
             "enable": true,
-            "distance": isMobile ? 120 : 210,
+            "distance": isMobile ? 120 : 200,
             "color": "#ffffff",
             "opacity": 0.4,
             "width": isMobile ? 1 : 2
