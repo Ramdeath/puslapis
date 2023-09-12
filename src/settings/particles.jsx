@@ -7,7 +7,7 @@ export var settings = {
     },
     "particles": {
         "number": {
-            "value": isMobile ? 22 : 36,
+            "value": isMobile ? 22 : 56,
             "density": {
                 "enable": false,
                 "value_area": 2000
