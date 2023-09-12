@@ -3,6 +3,7 @@
   --link-color-underlined: #ffd700;
   --text-color: white;
   --main-color: #ffd700;
+  --light-slate-color: #cedafa;
   --background-color: #161f20;
   --background-color-dark: #1c1c1c;
 }
@@ -53,7 +54,7 @@ a:after {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 6px;
-  background: black
+  background: var(--light-slate-color);
 }
 
 /* Handle on hover */
