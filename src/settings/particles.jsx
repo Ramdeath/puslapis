@@ -14,10 +14,10 @@ export var settings = {
             }
         },
         "color": {
-            "value": "#222"
+            "value": "#fff"
         },
         "shape": {
-            "type": "square",
+            "type": "circle",
             enable: false,
         },
         "opacity": {
@@ -31,7 +31,7 @@ export var settings = {
             }
         },
         "size": {
-            "value": isMobile ? 3 : 4,
+            "value": isMobile ? 2 : 3,
             "random": false,
             "anim": {
                 "enable": false,
@@ -110,7 +110,7 @@ export var settings = {
     },
     "retina_detect": true,
     "background": {
-        "color": "#161f20",
+        "color": "#0d1111",
         "image": "",
         "position": "50% 50%",
         "repeat": "no-repeat",

@@ -16,7 +16,7 @@ export default function Vienuoliktokai() {
                     <li>3 pamoka „Duomenų kodavimas ir skaičiavimo sistemos kompiuteriuose“
                         <a href={pamoka3} download="pamoka3" rel="noreferrer"> nuoroda. </a>                        
                     </li>
-                    <li>3 pamoka „Higienos, ergonominės ir techninės saugaus darbo skaitmeninėmis technologijomis normos“
+                    <li>4 pamoka „Higienos, ergonominės ir techninės saugaus darbo skaitmeninėmis technologijomis normos“
                         <a href={pamoka4} download="pamoka4" rel="noreferrer"> nuoroda. </a>                        
                     </li>
                 </ul>
