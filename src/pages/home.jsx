@@ -21,7 +21,7 @@ export default function Home() {
                 <div id="BannerContent">
                     <div>
                         <h1><b>Liuokaitis.lt</b></h1>
-                        <h2>Dalinis Atkūrimas</h2>
+                        <h2>Informatika</h2>
                     </div>
                     <ul>
                         <li><Link to="/pamokos/desimtokai">Dešimtokai</Link></li>
