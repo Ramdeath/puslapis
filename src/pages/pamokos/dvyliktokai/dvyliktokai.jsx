@@ -1,6 +1,3 @@
-import pamoka2 from './files/pamoka2.pptx';
-import pamoka3 from './files/pamoka3.pptx';
-import pamoka4 from './files/pamoka4.pptx';
 
 export default function Dvyliktokai() {
     return (
@@ -37,11 +34,7 @@ export default function Dvyliktokai() {
                     </li>
                     <li>
                         Sveikosios dalies ir liekanos radimas bei pritaikymas <a href='https://www.youtube.com/watch?v=0ezG5R04Gfg&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
-                    </li>
-                    <li>Uždaviniai
-                        <a href={pamoka2} download="pamoka2" rel="noreferrer"> nuoroda. </a>
-                        
-                    </li>
+                    </li>                    
                 </ul>
 
                 <h3>3 pamoka</h3>
@@ -64,10 +57,7 @@ export default function Dvyliktokai() {
                     <li>
                         Smalsiems IF alternatyva SWITCH <a href='https://www.youtube.com/watch?v=6kvtq43ovHg&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
                     </li>               
-                    <li>Uždaviniai
-                        <a href={pamoka3} download="pamoka3" rel="noreferrer"> nuoroda. </a>
-                        
-                    </li>
+                    
                 </ul>
 
                 <h3>4 pamoka</h3>
@@ -89,12 +79,10 @@ export default function Dvyliktokai() {
                         Nežinomų kartojimų skaičiaus ciklas while <a href='https://www.youtube.com/watch?v=dV8NWwze7_U&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
                     </li>    
                                                   
-                    <li>Uždaviniai
-                        <a href={pamoka4} download="pamoka4" rel="noreferrer"> nuoroda. </a>
-                        
-                    </li>
+                    
                 </ul>
             </div>
         </section>
     );
 }
+
