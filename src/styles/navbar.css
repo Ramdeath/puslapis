@@ -47,3 +47,13 @@
         margin: 0 10px;
     }
 
+#Ball{
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    left: 0;
+    font-size: 8px;
+    color: var(--main-color);
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
