@@ -20,7 +20,7 @@ export default function NavBar() {
         const aNav = document.getElementById("aNav");
 
         if (element) { 
-            // stupid chromium, looks scuffed cause of scroll bar and I can't do anything about it
+            // stupid chromium, looks scuffed cause of scroll bar and I can't do anything about it, temporerly disabled
             /*
             ball.style.transform = `translateX(${getMiddleOfElement(document.getElementById(element))}px)`; 
             return;
@@ -28,13 +28,13 @@ export default function NavBar() {
         }
 
         setTimeout(() => { // wait for the page to load for now, when all the pages are done, remove this
-            const currentPath = window.location.pathname;
+            const currentPath = window.location.hash;
             ball.style.opacity = "1";
 
-            if (currentPath === "/puslapis/pamokos/desimtokai") { ball.style.transform = `translateX(${getMiddleOfElement(deNav)}px)`;}
-            else if (currentPath === "/puslapis/pamokos/vienuoliktokai") { ball.style.transform = `translateX(${getMiddleOfElement(vNav)}px)`;}
-            else if (currentPath === "/puslapis/pamokos/dvyliktokai") { ball.style.transform = `translateX(${getMiddleOfElement(dvNav)}px)`;}
-            else if (currentPath === "/puslapis/pamokos/grafika") { ball.style.transform = `translateX(${getMiddleOfElement(aNav)}px)`;}
+            if (currentPath.includes("desimtokai")) { ball.style.transform = `translateX(${getMiddleOfElement(deNav)}px)`;}
+            else if (currentPath.includes("vienuoliktokai")) { ball.style.transform = `translateX(${getMiddleOfElement(vNav)}px)`;}
+            else if (currentPath.includes("dvyliktokai")) { ball.style.transform = `translateX(${getMiddleOfElement(dvNav)}px)`;}
+            else if (currentPath.includes("grafika")) { ball.style.transform = `translateX(${getMiddleOfElement(aNav)}px)`;}
             else { 
                 ball.style.transform = `translateX(${document.getElementById("NavLinks").getBoundingClientRect().left}px)`
                 ball.style.opacity = "0";
