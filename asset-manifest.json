@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puslapis/static/css/main.ed4b7e5f.css",
-    "main.js": "/puslapis/static/js/main.fe381da1.js",
+    "main.js": "/puslapis/static/js/main.ef4f934a.js",
     "static/js/787.f4804f74.chunk.js": "/puslapis/static/js/787.f4804f74.chunk.js",
     "static/media/pamoka2.ppt": "/puslapis/static/media/pamoka2.a13a525574172734d64a.ppt",
     "static/media/pazintis_su_codeblocks1.ppt": "/puslapis/static/media/pazintis_su_codeblocks1.e665b53a7b578e66c8e4.ppt",
@@ -27,11 +27,11 @@
     "index.html": "/puslapis/index.html",
     "static/media/layered-steps-haikei.svg": "/puslapis/static/media/layered-steps-haikei.684fcd961333c73937d8f42133027e32.svg",
     "main.ed4b7e5f.css.map": "/puslapis/static/css/main.ed4b7e5f.css.map",
-    "main.fe381da1.js.map": "/puslapis/static/js/main.fe381da1.js.map",
+    "main.ef4f934a.js.map": "/puslapis/static/js/main.ef4f934a.js.map",
     "787.f4804f74.chunk.js.map": "/puslapis/static/js/787.f4804f74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed4b7e5f.css",
-    "static/js/main.fe381da1.js"
+    "static/js/main.ef4f934a.js"
   ]
 }
