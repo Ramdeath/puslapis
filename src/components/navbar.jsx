@@ -28,7 +28,7 @@ export default function NavBar() {
         }
 
         setTimeout(() => { // wait for the page to load for now, when all the pages are done, remove this
-            const currentPath = window.location.hash;
+            const currentPath = window.location.pathname;
             ball.style.opacity = "1";
 
             if (currentPath.includes("desimtokai")) { ball.style.transform = `translateX(${getMiddleOfElement(deNav)}px)`;}
