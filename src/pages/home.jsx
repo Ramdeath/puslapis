@@ -23,7 +23,6 @@ export default function Home() {
     const particlesInit = async (main) => {await loadFull(main);}; // load particles
     
     useEffect(() => { // on load
-        window.scrollTo(0, 0); // scroll to top
         AOS.init(); // animate on scroll
     }, []);
 

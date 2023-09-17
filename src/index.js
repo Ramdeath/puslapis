@@ -21,6 +21,7 @@ import NavBar from './components/navbar';
 import reportWebVitals from './reportWebVitals';
 
 import ScrollToTop from './components/scrolltotop';
+import ParticlesMain from './components/particlesmain';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,10 +29,19 @@ root.render(
     <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
       <ScrollToTop />
+      <ParticlesMain />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pamokos/desimtokai" element={<Desimtokai/>} />
-        <Route path="/pamokos/vienuoliktokai" element={<Vienuoliktokai />} />
+        <Route path="/pamokos/desimtokai" element={
+        <>
+          <Desimtokai/>
+        </>
+        } />
+        <Route path="/pamokos/vienuoliktokai" element={
+        <>
+          <Vienuoliktokai/>
+        </>
+        } />
         <Route path="/pamokos/dvyliktokai" element={<Dvyliktokai/>} />
         <Route path="/pamokos/grafika" element={<Grafika/>} />
       </Routes>
