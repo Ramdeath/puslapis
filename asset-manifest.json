@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puslapis/static/css/main.ebab3625.css",
-    "main.js": "/puslapis/static/js/main.c4ef77f5.js",
+    "main.js": "/puslapis/static/js/main.38673108.js",
     "static/js/787.f4804f74.chunk.js": "/puslapis/static/js/787.f4804f74.chunk.js",
     "static/media/pamoka4.ppt": "/puslapis/static/media/pamoka4.b63e4745d38cbe261883.ppt",
     "static/media/pamoka2.ppt": "/puslapis/static/media/pamoka2.a13a525574172734d64a.ppt",
@@ -21,7 +21,7 @@
     "static/media/autocad4_2.jpg": "/puslapis/static/media/autocad4_2.fd8e8ed6c4cd81667bcb.jpg",
     "static/media/pamoka1_2.pptx": "/puslapis/static/media/pamoka1_2.ea8b01449b8c5c2c4cd5.pptx",
     "static/media/autocad4_1.jpg": "/puslapis/static/media/autocad4_1.dbe0ea8a371f0dac6598.jpg",
-    "static/media/pamoka8.pptx": "/puslapis/static/media/pamoka8.36a936de311f8dae8264.pptx",
+    "static/media/pamoka8.pptx": "/puslapis/static/media/pamoka8.990a7c9289ce77f626a9.pptx",
     "static/media/pamoka3.pptx": "/puslapis/static/media/pamoka3.8a9a002188577181c3e6.pptx",
     "static/media/pamoka4.pptx": "/puslapis/static/media/pamoka4.91212e22f6b8dadad2b5.pptx",
     "static/media/autocad2_2.png": "/puslapis/static/media/autocad2_2.f05a97eb3dc6406aba01.png",
@@ -29,11 +29,11 @@
     "index.html": "/puslapis/index.html",
     "static/media/layered-steps-haikei.svg": "/puslapis/static/media/layered-steps-haikei.684fcd961333c73937d8f42133027e32.svg",
     "main.ebab3625.css.map": "/puslapis/static/css/main.ebab3625.css.map",
-    "main.c4ef77f5.js.map": "/puslapis/static/js/main.c4ef77f5.js.map",
+    "main.38673108.js.map": "/puslapis/static/js/main.38673108.js.map",
     "787.f4804f74.chunk.js.map": "/puslapis/static/js/787.f4804f74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebab3625.css",
-    "static/js/main.c4ef77f5.js"
+    "static/js/main.38673108.js"
   ]
 }
