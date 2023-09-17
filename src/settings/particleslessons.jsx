@@ -106,7 +106,7 @@ export var settings = {
             }
         }
     },
-    "retina_detect": false,
+    "retina_detect": true,
     "background": {
         "color": "#1c1c1c",
         "image": "",
