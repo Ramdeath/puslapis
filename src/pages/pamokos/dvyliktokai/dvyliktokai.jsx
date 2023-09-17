@@ -77,9 +77,17 @@ export default function Dvyliktokai() {
                          
                     <li>
                         Nežinomų kartojimų skaičiaus ciklas while <a href='https://www.youtube.com/watch?v=dV8NWwze7_U&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
-                    </li>    
-                                                  
-                    
+                    </li>
+                </ul>
+
+                <h3>5-6 pamoka</h3>
+                <ul>
+                    <li>
+                        Ciklas cikle <a href='https://www.youtube.com/watch?v=MXdWoYqZACU&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>
+                    <li>
+                        Funkcijos <a href='https://www.youtube.com/watch?v=tiQYTVz9zS0&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>                       
                 </ul>
             </div>
         </section>
