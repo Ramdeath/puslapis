@@ -46,9 +46,11 @@
     #NavLinks li {
         margin: 0 10px;
     }
+#MobileNav{display: none !important;}
 
 #Ball{
     position: absolute;
+    pointer-events: none;
     opacity: 0;
     top: 14px;
     left: 0;
@@ -56,4 +58,20 @@
     color: var(--main-color);
     transform: translateX(-50%);
     transition: all 0.3s ease;
+}
+
+#MobileLogo{
+    display: none;
+    font-weight: 800;
+}
+    #MobileLogo span {color: var(--main-color);}
+
+@media (max-width: 768px) {
+    #Ball{display: none;}
+
+    #MobileNav{display: flex !important;}
+    #DesktopNav{display: none !important;}
+
+    #DesktopLogo{display: none;}
+    #MobileLogo{display: block;}
 }

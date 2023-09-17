@@ -1,7 +1,7 @@
 .lessonSection{
     padding: 100px 120px;
-    padding-bottom: 20px;
-    min-height: calc(100vh - 120px);
+    padding-bottom: 60px;
+    min-height: calc(100vh - 160px);
     background: var(--background-color-dark);
 }
     .lessonSection h1 {
@@ -34,3 +34,15 @@
         background: var(--main-color);
         margin-top: 10px;
     }
+
+@media (max-width: 768px) {
+    .lessonSection{ padding: 100px 20px; }
+    .lessonContainer h3{ font-size: 20px; }
+    .lessonContainer h3::after{ margin-top: 5px; }
+
+    .lessonSection h1{ font-size: 36px; text-align: center; }
+
+    .lessonContainer ul {
+        padding-inline-start: 20px;
+    }
+}

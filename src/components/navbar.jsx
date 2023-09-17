@@ -5,43 +5,39 @@ import { useEffect } from "react";
 
 // check what is the current page
 
+
+function getMiddleOfElement(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.left + (rect.width / 2) - 4;
+}
+
+export function alignBalls(element) {
+    const ball = document.getElementById("Ball");
+
+    const deNav = document.getElementById("deNav");
+    const vNav = document.getElementById("vNav");
+    const dvNav = document.getElementById("dvNav");
+    const aNav = document.getElementById("aNav");
+
+    if (typeof element === "string") { 
+        ball.style.transform = `translateX(${getMiddleOfElement(document.getElementById(element))}px)`; 
+        return;
+    }
+
+    const currentPath = window.location.pathname;
+    ball.style.opacity = "1";
+
+    if (currentPath.includes("desimtokai")) { ball.style.transform = `translateX(${getMiddleOfElement(deNav)}px)`;}
+    else if (currentPath.includes("vienuoliktokai")) { ball.style.transform = `translateX(${getMiddleOfElement(vNav)}px)`;}
+    else if (currentPath.includes("dvyliktokai")) { ball.style.transform = `translateX(${getMiddleOfElement(dvNav)}px)`;}
+    else if (currentPath.includes("grafika")) { ball.style.transform = `translateX(${getMiddleOfElement(aNav)}px)`;}
+    else { 
+        ball.style.transform = `translateX(${document.getElementById("NavLinks").getBoundingClientRect().left}px)`
+        ball.style.opacity = "0";
+    ;}
+}
+
 export default function NavBar() {
-    function getMiddleOfElement(element) {
-        const rect = element.getBoundingClientRect();
-        return rect.left + (rect.width / 2) - 4;
-    }
-
-    function alignBalls(element) {
-        const ball = document.getElementById("Ball");
-
-        const deNav = document.getElementById("deNav");
-        const vNav = document.getElementById("vNav");
-        const dvNav = document.getElementById("dvNav");
-        const aNav = document.getElementById("aNav");
-
-        if (element) { 
-            // stupid chromium, looks scuffed cause of scroll bar and I can't do anything about it, temporerly disabled
-            /*
-            ball.style.transform = `translateX(${getMiddleOfElement(document.getElementById(element))}px)`; 
-            return;
-            */
-        }
-
-        setTimeout(() => { // wait for the page to load for now, when all the pages are done, remove this
-            const currentPath = window.location.pathname;
-            ball.style.opacity = "1";
-
-            if (currentPath.includes("desimtokai")) { ball.style.transform = `translateX(${getMiddleOfElement(deNav)}px)`;}
-            else if (currentPath.includes("vienuoliktokai")) { ball.style.transform = `translateX(${getMiddleOfElement(vNav)}px)`;}
-            else if (currentPath.includes("dvyliktokai")) { ball.style.transform = `translateX(${getMiddleOfElement(dvNav)}px)`;}
-            else if (currentPath.includes("grafika")) { ball.style.transform = `translateX(${getMiddleOfElement(aNav)}px)`;}
-            else { 
-                ball.style.transform = `translateX(${document.getElementById("NavLinks").getBoundingClientRect().left}px)`
-                ball.style.opacity = "0";
-            ;}
-        }, 50);
-    }
-
     useEffect(() => {
         const ball = document.getElementById("Ball");
         ball.style.transform = `translateX(${document.getElementById("NavLinks").getBoundingClientRect().left}px)`
@@ -54,15 +50,22 @@ export default function NavBar() {
     return (
         <nav id="NavBar">
             <div id="Logo">
-                <Link to="/" onClick={() => alignBalls()}>Liuokaitis.lt</Link>
+                <Link to="/" id="DesktopLogo" onClick={() => alignBalls()}>Liuokaitis.lt</Link>
+                <Link to="/" id="MobileLogo" onClick={() => alignBalls()}>LI<span>.</span></Link>
             </div>
             <div id="Ball">▼</div>
             <div id="NavLinks">
-                <ul>
-                    <li><Link onClick={() => alignBalls('deNav')} id="deNav" to="/pamokos/desimtokai">Dešimtokai</Link></li>
-                    <li><Link onClick={() => alignBalls('vNav')} id="vNav" to="/pamokos/vienuoliktokai">Vienuoliktokai</Link></li>
-                    <li><Link onClick={() => alignBalls('dvNav')} id="dvNav" to="/pamokos/dvyliktokai">Dvyliktokai</Link></li>
-                    <li><Link onClick={() => alignBalls('aNav')} id="aNav" to="/pamokos/grafika">Autocad</Link></li>
+                <ul id="DesktopNav">
+                    <li><Link id="deNav" to="/pamokos/desimtokai">Dešimtokai</Link></li>
+                    <li><Link id="vNav" to="/pamokos/vienuoliktokai">Vienuoliktokai</Link></li>
+                    <li><Link id="dvNav" to="/pamokos/dvyliktokai">Dvyliktokai</Link></li>
+                    <li><Link id="aNav" to="/pamokos/grafika">Autocad</Link></li>
+                </ul>
+                <ul id="MobileNav">
+                    <li><Link id="deNav" to="/pamokos/desimtokai">II</Link></li>
+                    <li><Link id="vNav" to="/pamokos/vienuoliktokai">III</Link></li>
+                    <li><Link id="dvNav" to="/pamokos/dvyliktokai">IV</Link></li>
+                    <li><Link id="aNav" to="/pamokos/grafika">AutoCad</Link></li>
                 </ul>
             </div>
         </nav>

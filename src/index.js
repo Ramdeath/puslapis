@@ -9,6 +9,7 @@ import './styles/lessons.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/home';
+import Footer from './components/footer';
 
 import Desimtokai from './pages/pamokos/desimtokai/desimtokai';
 import Vienuoliktokai from './pages/pamokos/vienuoliktokai/vienuoliktokai';
@@ -34,6 +35,7 @@ root.render(
         <Route path="/pamokos/dvyliktokai" element={<Dvyliktokai/>} />
         <Route path="/pamokos/grafika" element={<Grafika/>} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );

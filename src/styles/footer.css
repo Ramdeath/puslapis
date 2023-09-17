@@ -1,0 +1,11 @@
+footer {
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    z-index: 4;
+    text-align: center;
+}
+
+#FooterSmall {
+    font-size: 11px;
+}

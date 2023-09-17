@@ -130,3 +130,18 @@
 .title.two::before { content: '02' !important; }
 .title.three::before { content: '03' !important; }
 .title.four::before { content: '04' !important; }
+
+@media (max-width: 768px) {
+    #About {
+        padding: 20px 50px;
+    }
+
+    #Banner img {
+        display: none;
+    }
+
+    #About section {
+        grid-template-columns: 1fr;
+    }
+    #About .aboutContainer.short {max-width: 100%;}
+}
