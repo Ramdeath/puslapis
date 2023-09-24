@@ -40,7 +40,7 @@ export default function Grafika() {
                         <a href={autocad2_1} download="autocad2_1"  target="_blank" rel="noreferrer"> nuoroda1, </a>
                         <a href={autocad2_2} download="autocad2_2" target="_self" rel="noreferrer"> nuoroda2. </a>
                     </li>
-                    <li>Brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=hj3DIBgn7vg&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
+                    <li>Brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=EFyatmZA0sw&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
                 </ul>
 
                 <h3>3 tema</h3>

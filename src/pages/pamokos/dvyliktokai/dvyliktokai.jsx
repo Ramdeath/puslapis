@@ -89,6 +89,22 @@ export default function Dvyliktokai() {
                         Funkcijos <a href='https://www.youtube.com/watch?v=tiQYTVz9zS0&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
                     </li>                       
                 </ul>
+
+                <h3>7-8 pamoka</h3>
+                <ul>
+                    <li>
+                        Kintamasis string <a href='https://www.youtube.com/watch?v=0KXD0gWdc54&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>
+                    <li>
+                        Kintamasis bool <a href='https://www.youtube.com/watch?v=Klbk5nEaUWg&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li> 
+                    <li>
+                        Funkcija su parametrais-nuorodomis <a href='https://www.youtube.com/watch?v=cY6bUjCQ9Js&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>
+                    <li>
+                        Apvalinimo funkcijos <a href='https://www.youtube.com/watch?v=pVjRA_dbbWM&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>                      
+                </ul>
             </div>
         </section>
     );

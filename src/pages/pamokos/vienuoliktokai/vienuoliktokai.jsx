@@ -103,6 +103,16 @@ export default function Vienuoliktokai() {
                         12 pamoka. Aplinkosaugos problemos ir jų sprendimai.
                     </li>               
                 </ul>
+
+                <h3>4 savaitė</h3>
+                <ul>
+                    <li>
+                        Ciklas cikle <a href='https://www.youtube.com/watch?v=MXdWoYqZACU&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>
+                    <li>
+                        Funkcijos <a href='https://www.youtube.com/watch?v=tiQYTVz9zS0&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>                       
+                </ul>
             </div>
         </section>
     );
