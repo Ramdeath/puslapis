@@ -3,6 +3,7 @@ import pamoka2 from './files/pamoka2.ppt';
 import pamoka3 from './files/pamoka3.ppt'; 
 import pamoka4 from './files/pamoka4.ppt'; 
 
+
 export default function Desimtokai() {
     return (
         <section id="Desimtokai" className="lessonSection">

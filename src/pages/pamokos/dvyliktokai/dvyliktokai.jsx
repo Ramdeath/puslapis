@@ -1,4 +1,6 @@
 
+import pamoka9 from './files/pamoka9.pptx'; 
+import pamoka10 from './files/pamoka10.pptx'; 
 export default function Dvyliktokai() {
     return (
         <section id="Dvyliktokai" className="lessonSection">
@@ -104,6 +106,25 @@ export default function Dvyliktokai() {
                     <li>
                         Apvalinimo funkcijos <a href='https://www.youtube.com/watch?v=pVjRA_dbbWM&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
                     </li>                      
+                </ul>
+
+                <h3>9-10 pamoka</h3>
+                <ul>
+                    <li>
+                        Masyvas <a href='https://www.youtube.com/watch?v=F-uaTE5rSbs&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li> 
+                    <li>Uždaviniai
+                        <a href={pamoka9} download="pamoka9"  target="_blank" rel="noreferrer"> pptx. </a>
+                    </li>
+                    <li>
+                        Pavyzdinės užduoties sprendimas <a href='https://www.youtube.com/watch?v=Njs2nSO8zIk&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>
+                    <li>Uždaviniai
+                        <a href={pamoka10} download="pamoka10"  target="_blank" rel="noreferrer"> pptx. </a>
+                    </li>
+                    <li>
+                        Pavyzdinės užduoties sprendimas <a href='https://www.youtube.com/watch?v=ygzbq8hCAVM&ab_channel=RamunasLiuokaitis' rel="noreferrer">video.  </a>
+                    </li>                                        
                 </ul>
             </div>
         </section>
