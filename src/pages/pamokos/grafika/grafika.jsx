@@ -12,6 +12,7 @@ import autocad5_1 from './files/autocad5_1.jpg';
 import autocad5_2 from './files/autocad5_2.jpg'; 
 import autocad5_3 from './files/autocad5_3.jpg'; 
 import autocad5_4 from './files/autocad5_4.jpg'; 
+import autocad6 from './files/autocad6.jpg'; 
 
 export default function Grafika() {
     return (
@@ -77,6 +78,16 @@ export default function Grafika() {
                     </li>
                     <li>1 brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=Kc1omsDZKek&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
                     <li>2 brėžinio atlikimo eiga (tangent ir trim): <a href='https://www.youtube.com/watch?v=enftnfylmrc&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
+                </ul>
+
+                <h3>6 tema</h3>
+                <ul>
+                    <li>Komandos: offset, trim, rotate, array.</li>                    
+                    <li>Brėžiniai
+                        <a href={autocad6} download="autocad6"  target="_blank" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>Sienų braižymas: <a href='https://www.youtube.com/watch?v=JHAao-eBQ2g&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
+                    <li>Durų braižymas: <a href='https://www.youtube.com/watch?v=ruc7nJl-zAU&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
                 </ul>
             </div>
         </section>
