@@ -142,7 +142,7 @@ export default function Vienuoliktokai() {
                     </li>               
                 </ul>
 
-                <h3>Kmpiuterių tinklai</h3>
+                <h3>Kompiuterių tinklai</h3>
                 <ul>
                 <li>Informacija apie kompiuterių tinklus
                         <a href={tinklai} download="tinklai" rel="noreferrer"> nuoroda. </a>                        
