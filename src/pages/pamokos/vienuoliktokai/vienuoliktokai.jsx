@@ -3,6 +3,7 @@ import pamoka3 from './files/pamoka3.pptx';
 import pamoka4 from './files/pamoka4.pptx';
 import pamoka5 from './files/pamoka5_6.pptx';
 import pamoka8 from './files/pamoka8.pptx';
+import tinklai from './files/tinklai.pptx';
 
 export default function Vienuoliktokai() {
     return (
@@ -138,6 +139,13 @@ export default function Vienuoliktokai() {
                     </li>
                     <li>
                         Grupinės bendravimo priemonės ir etikos principai.
+                    </li>               
+                </ul>
+
+                <h3>Kmpiuterių tinklai</h3>
+                <ul>
+                <li>Informacija apie kompiuterių tinklus
+                        <a href={tinklai} download="tinklai" rel="noreferrer"> nuoroda. </a>                        
                     </li>               
                 </ul>
             </div>

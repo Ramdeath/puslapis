@@ -13,6 +13,8 @@ import autocad5_2 from './files/autocad5_2.jpg';
 import autocad5_3 from './files/autocad5_3.jpg'; 
 import autocad5_4 from './files/autocad5_4.jpg'; 
 import autocad6 from './files/autocad6.jpg'; 
+import autocad7 from './files/autocad7.png'; 
+import autocad8 from './files/autocad8.png'; 
 
 export default function Grafika() {
     return (
@@ -88,6 +90,25 @@ export default function Grafika() {
                     </li>
                     <li>Sienų braižymas: <a href='https://www.youtube.com/watch?v=JHAao-eBQ2g&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
                     <li>Durų braižymas: <a href='https://www.youtube.com/watch?v=ruc7nJl-zAU&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
+                </ul>
+
+                <h3>7 tema</h3>
+                <ul>
+                    <li>Komandos:  trim, circle, from.</li>                    
+                    <li>Brėžiniai
+                        <a href={autocad7} download="autocad7"  target="_blank" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>Brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=r3IXCD80OZE&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>                    
+                </ul>
+
+                <h3>8 tema</h3>
+                <ul>
+                    <li>Komandos: offset, trim, rotate, array.</li>                    
+                    <li>Brėžiniai
+                        <a href={autocad8} download="autocad8"  target="_blank" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>Brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=UhSk6rsn2oQ&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
+                    
                 </ul>
             </div>
         </section>
