@@ -4,6 +4,10 @@ import pamoka4 from './files/pamoka4.pptx';
 import pamoka5 from './files/pamoka5_6.pptx';
 import pamoka8 from './files/pamoka8.pptx';
 import tinklai from './files/tinklai.pptx';
+import excel1 from './files/Excel1.pptx';
+import excel2 from './files/Excel2.pptx';
+import excel3 from './files/Excel3.pptx';
+import excel4 from './files/Excel4.pptx';
 
 export default function Vienuoliktokai() {
     return (
@@ -144,9 +148,25 @@ export default function Vienuoliktokai() {
 
                 <h3>Kompiuterių tinklai</h3>
                 <ul>
-                <li>Informacija apie kompiuterių tinklus
+                    <li>Informacija apie kompiuterių tinklus
                         <a href={tinklai} download="tinklai" rel="noreferrer"> nuoroda. </a>                        
                     </li>               
+                </ul>
+
+                <h3>Skaičiuoklės (excel) kartojimas</h3>
+                <ul>
+                    <li>Koordinatės ir formulės struktūra
+                        <a href={excel1} download="excel1" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>Sąlyginės funkcijos kartojimas
+                        <a href={excel2} download="excel2" rel="noreferrer"> nuoroda. </a>                        
+                    </li>        
+                    <li>Mišrių koordinačių ir funkcijų grafikų kartojimas
+                        <a href={excel3} download="excel3" rel="noreferrer"> nuoroda. </a>                        
+                    </li>        
+                    <li>Funkcijų grafikai ir duomenų rikiavimas
+                        <a href={excel4} download="excel4" rel="noreferrer"> nuoroda. </a>                        
+                    </li>                       
                 </ul>
             </div>
         </section>
