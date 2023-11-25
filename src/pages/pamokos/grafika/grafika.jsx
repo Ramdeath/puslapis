@@ -15,6 +15,7 @@ import autocad5_4 from './files/autocad5_4.jpg';
 import autocad6 from './files/autocad6.jpg'; 
 import autocad7 from './files/autocad7.png'; 
 import autocad8 from './files/autocad8.png'; 
+import autocad9 from './files/autocad9.png'; 
 
 export default function Grafika() {
     return (
@@ -108,6 +109,16 @@ export default function Grafika() {
                         <a href={autocad8} download="autocad8"  target="_blank" rel="noreferrer"> nuoroda. </a>                        
                     </li>
                     <li>Brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=UhSk6rsn2oQ&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
+                    
+                </ul>
+
+                <h3>9 tema</h3>
+                <ul>
+                    <li>Komandos: trim, circle, from, array, arc, mirror, text.</li>                    
+                    <li>Brėžiniai
+                        <a href={autocad9} download="autocad9"  target="_blank" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>Brėžinio atlikimo eiga: <a href='https://www.youtube.com/watch?v=tdZO3kccZWg&ab_channel=RamunasLiuokaitis' rel="noreferrer"> video.</a></li>
                     
                 </ul>
             </div>

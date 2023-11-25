@@ -8,6 +8,10 @@ import excel1 from './files/Excel1.pptx';
 import excel2 from './files/Excel2.pptx';
 import excel3 from './files/Excel3.pptx';
 import excel4 from './files/Excel4.pptx';
+import excel5 from './files/Excel5.pptx';
+import excel7 from './files/Excel7.pptx';
+import excel9 from './files/Excel9.pptx';
+import excel11 from './files/Excel11.pptx';
 
 export default function Vienuoliktokai() {
     return (
@@ -155,18 +159,34 @@ export default function Vienuoliktokai() {
 
                 <h3>Skaičiuoklės (excel) kartojimas</h3>
                 <ul>
-                    <li>Koordinatės ir formulės struktūra
+                    <li>1 pamoka. Koordinatės ir formulės struktūra
                         <a href={excel1} download="excel1" rel="noreferrer"> nuoroda. </a>                        
                     </li>
-                    <li>Sąlyginės funkcijos kartojimas
+                    <li>2 pamoka. Sąlyginės funkcijos kartojimas
                         <a href={excel2} download="excel2" rel="noreferrer"> nuoroda. </a>                        
                     </li>        
-                    <li>Mišrių koordinačių ir funkcijų grafikų kartojimas
+                    <li>3 pamoka. Mišrių koordinačių ir funkcijų grafikų kartojimas
                         <a href={excel3} download="excel3" rel="noreferrer"> nuoroda. </a>                        
                     </li>        
-                    <li>Funkcijų grafikai ir duomenų rikiavimas
+                    <li>4 pamoka. Funkcijų grafikai ir duomenų rikiavimas
                         <a href={excel4} download="excel4" rel="noreferrer"> nuoroda. </a>                        
+                    </li>   
+                    <li>5-6 pamoka. Funkcijos COUNT, COUNTIF ir SUMIF
+                        <a href={excel5} download="excel5" rel="noreferrer"> nuoroda. </a>                        
                     </li>                       
+                </ul>
+
+                <h3>Skaičiuoklės (excel) naujos temos</h3>
+                <ul>
+                    <li>7-8 pamoka. Loginės funkcijos 
+                        <a href={excel7} download="excel7" rel="noreferrer"> nuoroda. </a>                        
+                    </li>  
+                    <li>9-10 pamoka. Funkcijos Round ir TRUNC 
+                        <a href={excel9} download="excel9" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>11-12 pamoka. Sudėtingesni sąlyginės funkcijos atvejai
+                        <a href={excel11} download="excel11" rel="noreferrer"> nuoroda. </a>                        
+                    </li>                         
                 </ul>
             </div>
         </section>
