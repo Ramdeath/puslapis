@@ -12,6 +12,10 @@ import excel5 from './files/Excel5.pptx';
 import excel7 from './files/Excel7.pptx';
 import excel9 from './files/Excel9.pptx';
 import excel11 from './files/Excel11.pptx';
+import excel13 from './files/Excel13.pptx';
+import excel15 from './files/Excel15.pptx';
+import excel17 from './files/Excel17.pptx';
+import excel19 from './files/Excel19.pptx';
 
 export default function Vienuoliktokai() {
     return (
@@ -186,7 +190,19 @@ export default function Vienuoliktokai() {
                     </li>
                     <li>11-12 pamoka. Sudėtingesni sąlyginės funkcijos atvejai
                         <a href={excel11} download="excel11" rel="noreferrer"> nuoroda. </a>                        
-                    </li>                         
+                    </li>   
+                    <li>13-14 pamoka. Trigonometrinės funkcijos
+                        <a href={excel13} download="excel13" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>15-16 pamoka. Vaizdingų diagramų kūrimas
+                        <a href={excel15} download="excel15" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>17-18 pamoka. Funkcijų SIN, COS, ABS įtvirtinimas
+                        <a href={excel17} download="excel17" rel="noreferrer"> nuoroda. </a>                        
+                    </li>
+                    <li>19-20 pamoka. Laiko funkcija
+                        <a href={excel19} download="excel19" rel="noreferrer"> nuoroda. </a>                        
+                    </li>                      
                 </ul>
             </div>
         </section>
