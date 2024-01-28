@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puslapis/static/css/main.e7ce24db.css",
-    "main.js": "/puslapis/static/js/main.704e2ac8.js",
+    "main.js": "/puslapis/static/js/main.07b88df4.js",
     "static/js/787.f4804f74.chunk.js": "/puslapis/static/js/787.f4804f74.chunk.js",
     "static/media/pamoka4.ppt": "/puslapis/static/media/pamoka4.b63e4745d38cbe261883.ppt",
     "static/media/pamoka2.ppt": "/puslapis/static/media/pamoka2.a13a525574172734d64a.ppt",
@@ -15,8 +15,12 @@
     "static/media/pamoka10.pptx": "/puslapis/static/media/pamoka10.96a5f928e0982f4e2d1d.pptx",
     "static/media/pazintis_su_codeblocks1.ppt": "/puslapis/static/media/pazintis_su_codeblocks1.e665b53a7b578e66c8e4.ppt",
     "static/media/Excel9.pptx": "/puslapis/static/media/Excel9.c7d05936dc7e1bbd7637.pptx",
+    "static/media/Excel17.pptx": "/puslapis/static/media/Excel17.84c401f8e3b2e54ee2dc.pptx",
     "static/media/Excel5.pptx": "/puslapis/static/media/Excel5.0e225ff6c315a9994d5e.pptx",
     "static/media/Excel11.pptx": "/puslapis/static/media/Excel11.e7bf049075b84434e98d.pptx",
+    "static/media/Excel19.pptx": "/puslapis/static/media/Excel19.12bb90d454b03e6df92f.pptx",
+    "static/media/Excel13.pptx": "/puslapis/static/media/Excel13.98350e9267ad30b68fd9.pptx",
+    "static/media/Excel15.pptx": "/puslapis/static/media/Excel15.2917dc00744350a80faf.pptx",
     "static/media/Excel1.pptx": "/puslapis/static/media/Excel1.9cd4cb0e9530c33be099.pptx",
     "static/media/autocad6.jpg": "/puslapis/static/media/autocad6.eabc08ed7185798f728f.jpg",
     "static/media/pamoka5_6.pptx": "/puslapis/static/media/pamoka5_6.94b50f00c2fdc359153d.pptx",
@@ -44,11 +48,11 @@
     "index.html": "/puslapis/index.html",
     "static/media/layered-steps-haikei.svg": "/puslapis/static/media/layered-steps-haikei.684fcd961333c73937d8f42133027e32.svg",
     "main.e7ce24db.css.map": "/puslapis/static/css/main.e7ce24db.css.map",
-    "main.704e2ac8.js.map": "/puslapis/static/js/main.704e2ac8.js.map",
+    "main.07b88df4.js.map": "/puslapis/static/js/main.07b88df4.js.map",
     "787.f4804f74.chunk.js.map": "/puslapis/static/js/787.f4804f74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ce24db.css",
-    "static/js/main.704e2ac8.js"
+    "static/js/main.07b88df4.js"
   ]
 }
