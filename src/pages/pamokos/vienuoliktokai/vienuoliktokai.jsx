@@ -16,6 +16,7 @@ import excel13 from './files/Excel13.pptx';
 import excel15 from './files/Excel15.pptx';
 import excel17 from './files/Excel17.pptx';
 import excel19 from './files/Excel19.pptx';
+import finaline from './files/finaline.xlsx';
 
 export default function Vienuoliktokai() {
     return (
@@ -202,7 +203,11 @@ export default function Vienuoliktokai() {
                     </li>
                     <li>19-20 pamoka. Laiko funkcija
                         <a href={excel19} download="excel19" rel="noreferrer"> nuoroda. </a>                        
-                    </li>                      
+                    </li>       
+                    <li>Finalinė pamoka
+                        <a href={finaline} download="finaline" rel="noreferrer"> nuoroda. </a>  
+                        Duomenų failas <a href='https://www.youtube.com/watch?v=yvtuHZpr9is' rel="noreferrer">video.  </a>                      
+                    </li>                 
                 </ul>
             </div>
         </section>
