@@ -209,6 +209,17 @@ export default function Vienuoliktokai() {
                         Duomenų failas <a href='https://www.youtube.com/watch?v=yvtuHZpr9is' rel="noreferrer">video.  </a>                      
                     </li>                 
                 </ul>
+
+                <h3>Šifravimas</h3>
+                <ul>
+                    <li>
+                         <a href='https://mokslai.lietuviuzodynas.lt/informatika/kriptografijos-pagrindai-3?fbclid=IwAR1I7JcUAAFDxpxIoiPOMANiTifdLBLQrDCzy7QQq0MNjhXOGtZVSFGvcNA' rel="noreferrer">Kriptografijos pagrindai.  </a>
+                    </li>
+                    <li>
+                        <a href='http://www.technologijos.lt/n/mokslas/idomusis_mokslas/S-67447/straipsnis/Kaip-veikia-asimetrine-kriptografija-arba-kaip-maisydami-spalvas-du-nepazistami-zmones-gali-slaptai-bendrauti-visiems-matant?fbclid=IwAR0BmhtiECmjAUXEuEl5FLoVU2cdBKfXsccDto_abAKFgaUM5MYa7w-Bwlc' rel="noreferrer">Asimetrinė kriptografija.  </a>
+                    </li> 
+                           
+                </ul>
             </div>
         </section>
     );
