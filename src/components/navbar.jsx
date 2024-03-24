@@ -50,7 +50,7 @@ export default function NavBar() {
     return (
         <nav id="NavBar">
             <div id="Logo">
-                <Link to="/" id="DesktopLogo" onClick={() => alignBalls()}>Liuokaitis.lt</Link>
+                <Link to="/" id="DesktopLogo" onClick={() => alignBalls()}>Liuokaitis</Link>
                 <Link to="/" id="MobileLogo" onClick={() => alignBalls()}>LI<span>.</span></Link>
             </div>
             <div id="Ball">▼</div>

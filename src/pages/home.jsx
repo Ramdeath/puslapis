@@ -37,8 +37,7 @@ export default function Home() {
                 <img src={pixels} alt="pixels" id="Pixels" />
                 <div id="BannerContent">
                     <div>
-                        <h1><b>Liuokaitis.lt</b></h1>
-                        <h2>Informatika</h2>
+                        <h1><b>Informatika</b></h1>                        
                     </div>
                 </div>
             </section>

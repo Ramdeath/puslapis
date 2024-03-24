@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <div id="FooterContent">
                 <div id="FooterLeft">
-                    <p>© 2023 Liuokaitis.lt | Visos teisės saugomos</p>
+                    <p>© 2023 Liuokaitis | Visos teisės saugomos</p>
                 </div>
                 <div id="FooterSmall">
                     <p>
