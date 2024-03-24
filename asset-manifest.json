@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puslapis/static/css/main.e7ce24db.css",
-    "main.js": "/puslapis/static/js/main.da3023a3.js",
+    "main.js": "/puslapis/static/js/main.13bd2b85.js",
     "static/js/787.f4804f74.chunk.js": "/puslapis/static/js/787.f4804f74.chunk.js",
     "static/media/pamoka4.ppt": "/puslapis/static/media/pamoka4.b63e4745d38cbe261883.ppt",
     "static/media/pamoka2.ppt": "/puslapis/static/media/pamoka2.a13a525574172734d64a.ppt",
@@ -49,11 +49,11 @@
     "index.html": "/puslapis/index.html",
     "static/media/layered-steps-haikei.svg": "/puslapis/static/media/layered-steps-haikei.684fcd961333c73937d8f42133027e32.svg",
     "main.e7ce24db.css.map": "/puslapis/static/css/main.e7ce24db.css.map",
-    "main.da3023a3.js.map": "/puslapis/static/js/main.da3023a3.js.map",
+    "main.13bd2b85.js.map": "/puslapis/static/js/main.13bd2b85.js.map",
     "787.f4804f74.chunk.js.map": "/puslapis/static/js/787.f4804f74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ce24db.css",
-    "static/js/main.da3023a3.js"
+    "static/js/main.13bd2b85.js"
   ]
 }
